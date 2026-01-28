@@ -15,3 +15,19 @@ if 7>5:
     print("Seven is greater than five")
            print("Seven is greater than five")
            '''
+#assign a value
+x=10
+y=3
+print(x+y)
+
+#multiple statements on one line
+a=5;b=8;print(a*b)
+
+
+n=10
+if n>0:
+    print("Positive")
+elif n==0:
+    print("zero")
+else:
+    print("Negative")
