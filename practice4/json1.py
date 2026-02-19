@@ -57,3 +57,20 @@ json.dumps(x, indent=4)
 json.dumps(x, indent=4, separators=("."," = "))
 json.dumps(x, indent=4, sort_keys=True)
 
+
+#exersises
+import json
+
+with open("sample-data.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+for item in data["imdata"]:
+    attr = item["l1PhysIf"]["attributes"]
+    
+    interface = attr["id"]
+    admin_state = attr["adminSt"]
+    switching_state = attr["switchingSt"]
+    usage = attr["usage"]
+
+    print(interface, admin_state, switching_state, usage)
+    
