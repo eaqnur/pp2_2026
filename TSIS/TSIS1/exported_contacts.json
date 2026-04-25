@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Aknur",
+        "email": "aknur@gmail.com",
+        "birthday": "2007-05-12",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87011234567",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Ali",
+        "email": "ali@icloud.com",
+        "birthday": "2005-11-01",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87025554433",
+                "type": "mobile"
+            },
+            {
+                "phone": "87471236282",
+                "type": "home"
+            }
+        ]
+    }
+]
